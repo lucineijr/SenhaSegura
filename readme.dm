@@ -36,3 +36,13 @@ Após rodar a aplicação:
 
 Será gerado um novo arquivo "Novos usuários relacionados.xlsx"  com os usuários/credenciais que foram criados com sucesso.
 O status da criação de cada usuário relacionado pode ser acompanhado pelo console do Python.
+
+
+
+
+
+
+
+
+
+  
