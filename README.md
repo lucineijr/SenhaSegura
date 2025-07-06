@@ -23,8 +23,12 @@ Alterar o endereço do Senha Segura de acordo com o seu ambiente
   
 Entrada de Dados
 A lista de usuários e credenciais deve estar em um arquivo .xlsx (nome: "usuarios_para_relacionar.xlsx") com apenas duas colunas:
+
 Coluna A (A1 = username): insira os usuários
+
 Coluna B (B1 = credencial): insira as credenciais que deseja relacionar ao usuário da coluna A
+
+
   
 Exemplo:
 
