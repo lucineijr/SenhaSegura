@@ -4,14 +4,12 @@ Esta aplicação é usada para relacionar usuários a credenciais.
   Credencial: conta que a ferramenta gerencia e faz o rotacionamento de senha.
 
 Dependências
-É necessário instalar duas bibliotecas no Python para que a aplicação rode:
+É necessário instalar duas bibliotecas no Python para que a aplicação rode:  
+- pandas  
+- requests
 
-pandas
-requests
-
-Você pode instalá-las executando o comando:
-
-pip install requests pandas
+Você pode instalá-las executando o comando:  
+- pip install requests pandas
 
 
 
@@ -22,27 +20,21 @@ Alterar o Client_ID e Client_Secret na aplicação conforme os dados fornecidos 
 Alterar o endereço do Senha Segura de acordo com o seu ambiente
   
 Entrada de Dados
-A lista de usuários e credenciais deve estar em um arquivo .xlsx (nome: "usuarios_para_relacionar.xlsx") com apenas duas colunas:
-
-Coluna A (A1 = username): insira os usuários
-
+A lista de usuários e credenciais deve estar em um arquivo .xlsx (nome: "usuarios_para_relacionar.xlsx") com apenas duas colunas:  
+Coluna A (A1 = username): insira os usuários  
 Coluna B (B1 = credencial): insira as credenciais que deseja relacionar ao usuário da coluna A
 
 
   
 Exemplo:
 
-username  credencial
-
-user1    CredencialA
-
-user1    CredencialB
-
-user1    CredencialC
-
-user2    CredencialA
-
-user3    CredencialB
+|username | credencial |
+|---------|------------|
+|user1 | CredencialA |
+|user1 | CredencialB |
+|user1 | CredencialC |
+|user2 | CredencialA |
+|user3 | CredencialB |
 
     
 Execução e Resultados
